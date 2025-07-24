@@ -57,7 +57,7 @@ iterarDiccionario(cantantes2)
 
 #3. Crea la función iterarDiccionario2(llave, lista) que reciba una cadena con el nombre de una llave y una lista de diccionarios. 
 # La función debe imprimir el valor almacenado para esa clave de cada diccionario que se encuentra en la lista. 
-
+# Por ejemplo, iterarDiccionario2(“nombre”, cantantes) debe de imprimir:
 
 def iterarDiccionario2(llave, lista):
   for diccionario in lista:
@@ -68,9 +68,6 @@ def iterarDiccionario2(llave, lista):
 
 iterarDiccionario2("nombre",cantantes2)
 
-#4. Iterar a través de un diccionario con valores de lista Crea una función imprimirInformacion(diccionario) que reciba un diccionario en donde los valores son listas. La función debe
-#imprimir el nombre de cada clave junto con el tamaño de su lista y seguido de esto los valores de la lista para esa clave.
-
 costa_rica = {
 
    "ciudades": ["San José", "Limón", "Cartago", "Puntarenas"],
@@ -80,6 +77,8 @@ costa_rica = {
 }
 
 
+#4. Iterar a través de un diccionario con valores de lista Crea una función imprimirInformacion(diccionario) que reciba un diccionario en donde los valores son listas. La función debe
+#imprimir el nombre de cada clave junto con el tamaño de su lista y seguido de esto los valores de la lista para esa clave. Por ejemplo:
 
 def imprimirInformacion(diccionario):
  for lista in diccionario:
